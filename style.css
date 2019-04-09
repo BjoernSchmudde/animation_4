@@ -1,0 +1,52 @@
+html, body{
+    margin: 0;
+    padding:0;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    top:0;
+
+}
+.container{
+    position: absolute;
+    background-image: url(ani.jpg);
+    height: 100%;
+    width: 100%;    
+    background-size:cover;
+    background-repeat: no-repeat;
+    animation-name: comein;
+    animation-duration: 25s;
+    animation-fill-mode: forwards;
+    
+
+    
+}    
+
+
+    
+
+h1{
+    background: blueviolet;
+    text-align: center;
+    color:white;
+    font-size: 2.5em;
+    padding:2px;
+    position: relative;
+    opacity: 1;
+    font-style: italic;
+}
+@keyframes comein{
+    0%{
+    
+        
+        opacity: 0;
+    }
+    
+    
+    100%{
+         
+   
+        opacity: 1;
+
+    }
+}
